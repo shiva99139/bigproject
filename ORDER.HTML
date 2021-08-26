@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>shiva</title>
+<STYLE>
+
+
+h1{
+font-size:50px;
+position:absolute;
+margin-top:-600px;
+margin-left:30px;
+}
+a{
+font-size:50px;
+color:orange;
+font-weight:bold;
+position:absolute;
+margin-top:-500px;
+margin-left:130px;
+}
+h2{
+font-size:50px;
+color:orange;
+font-weight:bold;
+position:absolute;
+margin-top:-500px;
+margin-left:20px;
+}
+
+
+@media (max-width: 1000px){
+h1{
+font-size:50px;
+position:absolute;
+margin-top:-500px;
+margin-left:400px;
+}
+}
+@media(max-width: 1000px){
+a{
+font-size:50px;
+color:orange;
+font-weight:bold;
+position:absolute;
+margin-top:-300px;
+margin-left:430px;
+}
+}
+@media (max-width: 1000px){
+h2{
+font-size:50px;
+color:orange;
+font-weight:bold;
+position:absolute;
+margin-top:-300px;
+margin-left:300px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</STYLE>
+<script>
+setInterval(changeColor,350);
+function changeColor(){
+var x=document.getElementById("raj");
+if(x.style.color=="black")
+x.style.color="aqua";
+ else if(x.style.color=="aqua")
+  x.style.color="blue";
+  else if(x.style.color=="blue")
+  x.style.color="red";
+else if(x.style.color=="red")
+x.style.color="orange";
+else if(x.style.color=="orange")
+x.style.color="yellow";  
+  else if(x.style.color=="yellow")
+  x.style.color="blue";
+  
+  else x.style.color="black";
+
+}
+
+</script>
+</head>
+<body>
+<div class="banner">
+ <video width="100%"loop autoplay muted>   
+   
+   <source src="C:\Users\HP\Desktop\delivery.mp4\deliveryvideo (2).mp4"  type="video/mp4">
+   
+   </video>
+
+<div class="content">
+<h1 id="raj">YOUR ORDER IS SUCCESSFULLY PLACED</h1><br/>
+ <h2>call :</h2><a href="#">********45</a>
+</div>
+</div>
+</body>
+</html>
